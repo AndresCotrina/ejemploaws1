@@ -8,3 +8,7 @@ const server = http.createServer((req, res) => {
     res.end('Hola a todos les dice su docente');
 
 });
+
+server.listen(port,() => {
+    console.log('Server corriendo en el puerto 3000');
+});    
